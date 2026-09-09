@@ -1,0 +1,17 @@
+//@version=6
+strategy("Private Mean Reversion Research - Public Shell", overlay=true)
+
+// The proprietary signal engine is intentionally excluded.
+// This file demonstrates only the public architecture.
+
+bool privateLongSignal = false
+bool privateShortSignal = false
+
+if privateLongSignal
+    strategy.entry("Long", strategy.long)
+
+if privateShortSignal
+    strategy.entry("Short", strategy.short)
+
+// Exact indicators, parameters, thresholds, exits,
+// session rules, risk logic and filters are private.

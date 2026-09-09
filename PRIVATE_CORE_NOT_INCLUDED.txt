@@ -1,0 +1,14 @@
+PRIVATE CORE INTENTIONALLY EXCLUDED
+
+The public portfolio does not contain:
+- exact strategy entry logic
+- exact indicators or periods
+- exact thresholds
+- exact SL/TP
+- exact time/session filters
+- exact risk settings
+- broker execution details
+- raw historical data
+- private optimization code
+
+The project is designed to expose the research process without exposing the proprietary implementation.

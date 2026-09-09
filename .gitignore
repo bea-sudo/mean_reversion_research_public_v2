@@ -1,0 +1,10 @@
+*.xlsx
+*.xlsm
+*.csv
+.env
+*.key
+*.pem
+__pycache__/
+*.pyc
+.venv/
+venv/
